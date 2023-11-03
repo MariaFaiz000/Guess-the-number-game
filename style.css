@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/illustrations/background-of-a-question-mark-illustration-id1125504930?k=6&m=1125504930&s=612x612&w=0&h=HKXAPSVASyJ9O-kQe-L989ffpibAFVE5emK5zhjmmx0="); 
+  background-position: center;
+}
+img{
+  width: 40px;
+}
+h1 {
+  font-size: 48px;
+   text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #f50a16 0%,
+     #50f280 29%,
+     #c70be0 67%,
+     #f3ad35 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+
+label{
+  color: #5b3ec1;
+  background-color: #fcf8fb;
+  font-size: 30px;
+  font-family: verdana ;
+  margin: 50px;
+}
+
+option {
+  color: #6e1480;
+  background-color: #defa52;
+  font-size: 20px;
+  font-family: verdana ;
+}
+select{
+  width: 400px;
+  height:40px;
+  font-size: 20px;
+  font-family: verdana ;
+  margin: 30px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+}
+
+p {
+  color: #daf95d;
+  background-color: #fb7eda;
+  font-size: 20px;
+  font-family: verdana ;
+}
+
+button {
+  padding: 20px 20px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fb7eda;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background-color: #fd953f;
+}
+
+#score, #attempts {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2ff456;
+  background-color: #747273;
+}

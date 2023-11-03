@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1>Guess The Number Game.</h1>
+  <form id="gameForm">
+    <label for="difficulty">Select a Difficulty Level:</label>
+    <select id="difficulty" onchange="generateRandomNumber(this.value)">
+      <option value="">(Select a level)</option>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+    <p id="levelMessage"></p>
+    <br>
+    <label for="guessInput">Enter Your Guess:</label>
+    <input type="number" id="guessInput" name="guessInput" min="1" max="100" oninput="validateInput(this)" disabled>
+    <p id="feedback"></p>
+    <p id="attempts"></p>
+    <p id="score"></p>
+    <button type="submit" value="Submit" id= "submitButton" onclick="checkGuess()">Submit</button>
+    <button id="playAgain">Play Again</button>
+
+  </form>
+
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
