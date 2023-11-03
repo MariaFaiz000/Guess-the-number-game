@@ -8,5 +8,7 @@ If the user correctly guesses the number a congtatulations message is displayed.
 The user scores points according to the number of attempts taken to guess the number. 
 User will score 5 points for 1 attempt, 4 points for 2 attempts, 3 points for 3 attempts, 2 points for 4 attempts and 1 point for 5 attempts. 
 The user has the option to play again by clicking the play again button which resets the game.
+
+
 ![image](https://github.com/MariaFaiz000/Guess-the-number-game/assets/144806091/30e65753-e943-40bd-8392-1fe3104cbff6)
 ![image](https://github.com/MariaFaiz000/Guess-the-number-game/assets/144806091/38274b71-7705-46c1-8f0b-c086a23346d5)
